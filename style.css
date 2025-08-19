@@ -960,6 +960,10 @@ main section{
         flex-direction: column;
         width: 100%;
     }
+	.tjanster-content{
+		display: flex;
+		flex-direction: column;
+	}
   }
   @media screen and (max-width: 650px) {
     .header-height{
@@ -1030,7 +1034,6 @@ main section{
     }
     .tjanster-content{
         gap: 2vw;
-		flex-direction: column;
     }
     .tjanster-content-text{
         display: flex;
@@ -1049,3 +1052,4 @@ main section{
     }
 
   }
+
