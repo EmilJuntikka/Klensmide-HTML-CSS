@@ -879,6 +879,10 @@ main section{
     .main-first, .main-second, .main-third, .main-fourth, .product-page, .kontakt-first, .kontakt-second, .tjanster-second, .tjanster-third, .page-first{
         height: auto;
     }
+	  .section-four{
+    display: flex;
+	flex-direction: column;
+    }
     .logo{
         width: 450px;
     }
@@ -1052,4 +1056,5 @@ main section{
     }
 
   }
+
 
