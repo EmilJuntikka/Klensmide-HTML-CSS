@@ -1030,6 +1030,7 @@ main section{
     }
     .tjanster-content{
         gap: 2vw;
+		flex-direction: column;
     }
     .tjanster-content-text{
         display: flex;
@@ -1046,4 +1047,5 @@ main section{
         padding-left: 10px;
         height: 20vw;
     }
+
   }
